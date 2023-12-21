@@ -14,8 +14,8 @@ spec:
         app: mrdevops
       spec:
         containers:
-          - name: mrdevops
-            image: rohinisbag/kubernetes-image
-            imagePullPolicy: Always
-            ports:
-              - containerPort: 80
+        - name: mrdevops
+          image: rohinisbag/kubernetes-image
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 80
