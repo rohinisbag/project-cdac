@@ -1,6 +1,6 @@
 ---
 kind: Deploment
-apiversion: apps/v1
+apiVersion: apps/v1
 metadata:
   name: mrdevops
 spec:
