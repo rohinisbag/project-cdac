@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: mrdevops
-        image: rohinisbag/project-cdac:v1.35
+        image: rohinisbag/project-cdac:v1.37
         imagePullPolicy: Always
         ports:
         - containerPort: 80
